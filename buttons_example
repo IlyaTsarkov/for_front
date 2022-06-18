@@ -1,0 +1,79 @@
+------------------------------------HTML--------------------------------------  
+
+<ul class="front_categories_list">
+      <li class="front_categories_li html">
+          <div>
+              <a class="front_categories_link" href="#">HTML</a>
+          </div>
+      </li>
+      <li class="front_categories_li css">
+          <div>
+              <a class="front_categories_link" href="#">CSS</a>
+          </div>
+      </li>
+      <li class="front_categories_li js">
+          <div>
+              <a class="front_categories_link" href="#">JavaScript</a>
+          </div>
+      </li>
+  </ul>
+
+------------------------------------CSS---------------------------------------
+
+  .front_categories_list {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    list-style-type: none;
+}
+
+.front_categories_li {
+    width: 350px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 2vh;
+    text-align: center;
+    transform: skewX(-20deg);
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.front_categories_li_test {
+    border: 2px solid #65b2b0;
+}
+
+.front_categories_li_test2 {
+    transition: none;
+}
+
+.html {
+   background-color: #ff4500;
+}
+
+.css {
+   background-color: #00ffff;
+}
+
+.js {
+   background-color: #ffff00;
+}
+
+.front_categories_li:hover {
+    box-shadow: 7px 7px 25px #65b2b0;
+}
+
+.front_categories_link {
+    color: black;
+    text-decoration: none;
+}
+
+.front_categories_link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.front_categories_li div {
+    transform: skewX(20deg);
+}
